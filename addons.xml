@@ -1,5 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.vod.kenh88" name="Kenh88" version="1.0.1" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.vod.movihd" name="MoviHD" version="1.0.1" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.vod.phim3s" name="Phim3s" version="1.0.1" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.vod.phim7" name="Phim7" version="1.0.1" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.vod.phimlt" name="PhimLT" version="1.1.0" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.vod.phimmoi" name="PhimMoi" version="1.0.0" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.6.0"/>
@@ -16,16 +101,34 @@
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="plugin.video.vod.xomgiaitri" name="Xom Giai Tri" version="1.1.0" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.6.0"/>
+		<import addon="script.common.plugin.cache" version="2.5.5"/>
+        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.hockeyanon" name="hockeyanon Add-on repository" version="1.0.0" provider-name="hockeyanon">
 	<extension point="xbmc.addon.repository" name="hockeyanon Add-on repository">
 		<dir>
-			<info compressed="false">https://github.com/hockeyanon/hockeyanon-repo/master/addons.xml</info>
-			<checksum>https://github.com/hockeyanon/hockeyanon-repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/hockeyanon/hockeyanon-repo/master/</datadir>
+			<info compressed="false">https://raw.github.com/hockeyanon/xbmc-repo/master/addons.xml</info>
+			<checksum>https://raw.github.com/hockeyanon/xbmc-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/hockeyanon/xbmc-repo/master/</datadir>
 		</dir>
-		<info compressed="false">https://github.com/hockeyanon/hockeyanon-repo/master/addons.xml</info>
-		<checksum>https://github.com/hockeyanon/hockeyanon-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/hockeyanon/hockeyanon-repo/master/</datadir>
+		<info compressed="false">https://raw.github.com/hockeyanon/xbmc-repo/master/addons.xml</info>
+		<checksum>https://raw.github.com/hockeyanon/xbmc-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/hockeyanon/xbmc-repo/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Install Add-ons from hockeyanon</summary>
