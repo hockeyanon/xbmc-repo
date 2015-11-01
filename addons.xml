@@ -17,7 +17,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.hdonline" name="HDOnline" version="1.0.0" provider-name="">
+<addon id="plugin.video.vod.hdonline" name="HDOnline" version="1.0.1" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
 		<import addon="script.module.framework" version="1.2"/>
