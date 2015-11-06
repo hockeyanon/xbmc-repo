@@ -20,7 +20,7 @@
 <addon id="plugin.video.vod.hdonline" name="HDOnline" version="1.0.2" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -50,10 +50,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.kenh88" name="Kenh88" version="1.3.2" provider-name="">
+<addon id="plugin.video.vod.kenh88" name="Kenh88" version="1.3.3" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -66,10 +66,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.movihd" name="MoviHD" version="1.0.0" provider-name="">
+<addon id="plugin.video.vod.kitesvn" name="Kites.vn" version="1.0.1" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -82,10 +82,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.phim3s" name="Phim3s" version="1.3.4" provider-name="">
+<addon id="plugin.video.vod.movihd" name="MoviHD" version="1.0.1" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -98,10 +98,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.phim7" name="Phim7" version="1.3.2" provider-name="">
+<addon id="plugin.video.vod.phim3s" name="Phim3s" version="1.3.5" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -114,10 +114,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.phimlt" name="PhimLT" version="1.3.1" provider-name="">
+<addon id="plugin.video.vod.phim7" name="Phim7" version="1.3.3" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -130,10 +130,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.phimmoi" name="PhimMoi" version="1.3.2" provider-name="">
+<addon id="plugin.video.vod.phimlt" name="PhimLT" version="1.3.3" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -146,10 +146,26 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.xomgiaitri" name="Xom Giai Tri" version="1.3.1" provider-name="">
+<addon id="plugin.video.vod.phimmoi" name="PhimMoi" version="1.3.3" provider-name="">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
-		<import addon="script.module.framework" version="1.2"/>
+		<import addon="script.module.framework" version="1.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.vod.xomgiaitri" name="Xom Giai Tri" version="1.3.2" provider-name="">
+	<requires>
+		<import addon="xbmc.python" version="2.7.0"/>
+		<import addon="script.module.framework" version="1.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
