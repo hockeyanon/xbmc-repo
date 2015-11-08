@@ -146,7 +146,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.vod.phimmoi" name="PhimMoi" version="1.3.4" provider-name="anhlon">
+<addon id="plugin.video.vod.phimmoi" name="PhimMoi" version="1.3.5" provider-name="anhlon">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
 		<import addon="script.module.framework" version="1.3"/>
