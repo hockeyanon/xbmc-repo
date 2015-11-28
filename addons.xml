@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.vod.9movies" name="9movies" version="1.0.0" provider-name="anhlon">
+<addon id="plugin.video.vod.9movies" name="9movies" version="1.0.1" provider-name="anhlon">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
 		<import addon="script.module.framework" version="1.4"/>
